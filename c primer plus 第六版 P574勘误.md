@@ -1,4 +1,4 @@
-# Project  recursive-Free-memory
+# c primer plus 第六版 P574勘误
 
 project of ME  
 读c primer plus 第六版 链表部分  
