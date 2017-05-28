@@ -6,9 +6,14 @@ struct  film{
 	int data;
 struct film * next;   //指向下一个地址
 };
-//声明，传入参数为 链表头 head
+
+//原始film指针声明
+struct film * head = NULL;
+
+//声明函数，传入参数为 链表头 head
 struct film * GcMemony(film *);
-//尾递归实现内存释放
+
+//函数本体，尾递归实现内存释放
 struct film * GcMemony(film * head)
 	{
 	int n = 0;
